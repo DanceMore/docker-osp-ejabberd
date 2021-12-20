@@ -51,5 +51,3 @@ jobs:
           file: ./Ejabberd/Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-
-# no-op for CICD
