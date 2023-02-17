@@ -55,3 +55,5 @@ USER root
 VOLUME ["/home/ejabberd/database"]
 
 ENTRYPOINT ["/bin/sh","-c", "/run/entrypoint.sh"]
+
+# noop for cicd
